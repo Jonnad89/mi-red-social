@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi Perfil - MiniThreads</title>
+  <link rel="stylesheet" href="style/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <h2>Mi Perfil</h2>
+    <div>
+      <button onclick="window.location.href='index.html'">🏠 Inicio</button>
+      <button id="toggleDarkMode">🌓 Tema</button>
+      <button id="logoutBtn">Salir</button>
+
+    </div>
+  </header>
+
+  <main class="main-container">
+    <h3>Publicaciones de <span id="usernameDisplay"></span></h3>
+    <section id="feed">
+      <!-- Aquí se mostrarán los posts del usuario -->
+    </section>
+  </main>
+<script src="js/darkmode.js"></script>
+
+  <script src="js/profile.js"></script>
+</body>
+</html>
